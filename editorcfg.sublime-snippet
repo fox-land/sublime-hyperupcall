@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+root = true
+
+[*]
+indent_style = ${1:tab}
+end_of_line = ${2:lf}
+charset = ${3:utf-8}
+trim_trailing_whitespace = ${4:true}
+insert_final_newline = ${5:true}
+
+]]>	</content>
+	<tabTrigger>editorcfg</tabTrigger>
+	<scope>source.ini.editorcfg</scope>
+</snippet>

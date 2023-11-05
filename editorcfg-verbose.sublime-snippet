@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+root = true
+
+[*]
+indent_style = ${1:tab} # tab | space
+# indent_size = ${2:3} # $n | tab
+# tab_width = ${3:3} # $n
+end_of_line = ${4:lf} # lf | crlf | cr
+charset = ${5:utf-8} # latin1 | utf-8 | utf-16be | utf-16le | utf-8-bom
+trim_trailing_whitespace = ${6:true} # true | false
+insert_final_newline = ${7:true} # true | false
+max_line_length = ${8:off} # $n | off
+
+]]>	</content>
+	<tabTrigger>editorcfg-verbose</tabTrigger>
+	<scope>source.ini.editorcfg-verbose</scope>
+</snippet>
